@@ -1,0 +1,424 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+body{
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+
+.container .heading{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.heading-all{
+    display: flex;
+    flex-direction: row;
+}
+.container .heading h3{
+    flex: 1;
+    font-size: 4em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 10px;
+    color: lightsalmon;
+    
+}
+
+ button{
+    padding: 0.2% 0.2% 0.2% 0.2%;
+    flex: 1 1 1 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border-radius: 5%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    color: black;
+    background-color: lightsalmon;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container1 .box1 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+
+.container1 .box1 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+.container1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container1 .heading{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+.container1 .heading h3{
+    flex: 1;
+    font-size: 3.2em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 10px;
+    color: lightsalmon;
+}
+
+.dream_back_image{
+    width: 300px;
+    height: 350px;
+    padding-bottom:1%;
+    border-radius: 5px;
+    margin-right: 1.5%;
+}
+
+.dream_back_image.wide{
+    width: 600px;
+}
+
+.dream_back_image.medium_wide{
+    width: 360px;
+    position: relative;
+}
+.new_content{
+    position: absolute;
+    font-size:1.6em;
+    color: rgb(187, 0, 0);
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    background-color: transparent;
+
+}
+.container1 .box2 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+.container1 .box2 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+
+.container1 .box3 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.box1, .box2, .box3, .box4, .box5{
+    margin-bottom: 2%;
+} 
+.container1 .box3 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+.container1 .box4 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+.container1 .box4 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+.container1 .box5 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.container1 .box5 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+.container1 .box6 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.container1 .box7 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.container1 .box7 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+.container1 .box8 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.container1 .box8 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+.container1 .box9 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.container1 .box9 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+.container1 .box10 .dream_back{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.container1 .box10 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+.author{
+    color: rgb(212, 92, 48);
+}
+
+.container1 .box6 h2{
+    color: lightsalmon;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    text-align: left;
+} 
+
+
+
+@media only screen and (max-width: 1200px){
+
+    /*settings for home page*/
+
+    .container .box{
+        flex-direction: column;
+    }  
+    .container .heading{
+        width: 100%;
+    }
+    
+    .container .heading h3{
+        font-size: 4.5em;
+    }
+    .dream img{
+        margin-bottom: 3%;
+    }
+
+    .container .box .dream{
+        width: 100%;
+     }
+ 
+    button{
+        font-size: 2.5em;
+    }
+
+    /*settings for Sort by Book page */
+
+    .container1 .box1 .dream_back{
+        flex-direction: column;
+    }  
+    
+    .container1 .box2 .dream_back{
+        flex-direction: column;
+    }
+
+    .container1 .box3 .dream_back{
+        flex-direction: column;
+    }
+
+    .container1 .box4 .dream_back{
+        flex-direction: column;
+    }
+
+    .container1 .box5 .dream_back{
+        flex-direction: column;
+    }
+
+    .container1 .box6 .dream_back{
+        flex-direction: column;
+    }
+    .container1 .box7 .dream_back{
+        flex-direction: column;
+    }
+    .container1 .box8 .dream_back{
+        flex-direction: column;
+    }
+    .container1 .box9 .dream_back{
+        flex-direction: column;
+    }
+    .container1 .box10 .dream_back{
+        flex-direction: column;
+    }
+
+    .dream_back_image{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3%;
+    }
+
+    .dream_back_image.wide{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3%;
+    }
+
+    .dream_back_image.medium_wide{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3%;
+    }
+
+    .new_content{
+        font-size: 4em;
+    }
+    .container1 .heading h3{
+        font-size: 4.5em;
+    }
+    
+    .container1 .box1 h2{
+        font-size: 3em;
+    }
+    
+    .container1 .box2 h2{
+        font-size: 3em;
+    }
+    .container1 .box3 h2{
+        font-size: 3em;
+    }
+    .container1 .box4 h2{
+        font-size: 3em;
+    }
+    .container1 .box5 h2{
+        font-size: 3em;
+    }
+    .container1 .box6 h2{
+        font-size: 3em;
+    }
+  
+}
